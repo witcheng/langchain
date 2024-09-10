@@ -1,0 +1,22 @@
+clip_model_load: model name:   openai/clip-vit-large-patch14-336
+clip_model_load: description:  image encoder for LLaVA
+clip_model_load: GGUF version: 2
+clip_model_load: alignment:    32
+clip_model_load: n_tensors:    377
+clip_model_load: n_kv:         18
+clip_model_load: ftype:        f16
+
+clip_model_load: text_encoder:   0
+clip_model_load: vision_encoder: 1
+clip_model_load: llava_projector:  1
+clip_model_load: model size:     595.61 MB
+clip_model_load: metadata size:  0.13 MB
+clip_model_load: total allocated memory: 201.27 MB
+
+prompt: 'Describe the image in detail. Be specific about graphs, such as bar plots.'
+
+ The image depicts a garage with a truck parked inside. The truck is surrounded by several pieces of luggage, including suitcases and backpacks, which are placed around the vehicle. There are also a few people in the scene, with one person standing near the truck and two others located closer to the suitcases.
+
+In addition to the luggage, there are a couple of sports balls scattered around the garage, possibly indicating that the people in the scene are involved in some sports activities. The overall scene suggests a busy and active environment.
+
+main: image encoded in  2415.03 ms by CLIP (    4.19 ms per image patch)

@@ -1,0 +1,22 @@
+clip_model_load: model name:   openai/clip-vit-large-patch14-336
+clip_model_load: description:  image encoder for LLaVA
+clip_model_load: GGUF version: 2
+clip_model_load: alignment:    32
+clip_model_load: n_tensors:    377
+clip_model_load: n_kv:         18
+clip_model_load: ftype:        f16
+
+clip_model_load: text_encoder:   0
+clip_model_load: vision_encoder: 1
+clip_model_load: llava_projector:  1
+clip_model_load: model size:     595.61 MB
+clip_model_load: metadata size:  0.13 MB
+clip_model_load: total allocated memory: 201.27 MB
+
+prompt: 'Describe the image in detail. Be specific about graphs, such as bar plots.'
+
+ The image features a conversation between two people, with one person asking, "Where is the best place to find things?" The other person responds by discussing the importance of finding things in nature, such as mountains and lakes. The conversation also touches upon the idea of finding things in the sky, as well as the importance of finding things in the mind.
+
+The image is set against a backdrop of a beautiful landscape, which includes mountains and a lake. The conversation appears to be taking place on a bridge, with the two people standing close to each other.
+
+main: image encoded in  2352.83 ms by CLIP (    4.08 ms per image patch)

@@ -1,0 +1,20 @@
+clip_model_load: model name:   openai/clip-vit-large-patch14-336
+clip_model_load: description:  image encoder for LLaVA
+clip_model_load: GGUF version: 2
+clip_model_load: alignment:    32
+clip_model_load: n_tensors:    377
+clip_model_load: n_kv:         18
+clip_model_load: ftype:        f16
+
+clip_model_load: text_encoder:   0
+clip_model_load: vision_encoder: 1
+clip_model_load: llava_projector:  1
+clip_model_load: model size:     595.61 MB
+clip_model_load: metadata size:  0.13 MB
+clip_model_load: total allocated memory: 201.27 MB
+
+prompt: 'Describe the image in detail. Be specific about graphs, such as bar plots.'
+
+ The image features a picture of a refrigerator with a message on it, possibly a recipe or a reminder. The refrigerator is filled with various items, including multiple bottles placed on different shelves. There are also a few bowls visible in the scene, one of which is placed near the bottom left corner of the refrigerator. The overall scene suggests a well-stocked and organized kitchen.
+
+main: image encoded in  2759.30 ms by CLIP (    4.79 ms per image patch)
